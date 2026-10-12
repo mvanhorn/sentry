@@ -63,7 +63,7 @@ jobs:
               - 'tests/js/**'
               - 'scripts/**'
               - 'oxlint-suppressions.json'
-              - 'oxlint.config.ts'
+              - '**/oxlint.*.ts'
               - 'package.json'
               - 'pnpm-lock.yaml'
               - 'scripts/custom-oxlint.ts'

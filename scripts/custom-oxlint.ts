@@ -446,6 +446,7 @@ async function ciBaseline(base: string, allowed: Set<string>, policy: string) {
     file =>
       [
         'oxlint.config.ts',
+        'oxlint.base.ts',
         'scripts/custom-oxlint.ts',
         'pnpm-lock.yaml',
         'pnpm-workspace.yaml',
