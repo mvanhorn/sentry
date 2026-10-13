@@ -80,6 +80,8 @@ jobs:
             static/gsAdmin/node_modules
             static/packages/*/node_modules
             static/oxlint/*/node_modules
+            tests/js/node_modules
+            tests/js/getsentry-test/node_modules
           key: ${{ runner.os }}-${{ runner.arch }}-self-hosted-node-modules-${{ hashFiles('pnpm-lock.yaml', 'pnpm-workspace.yaml', 'package.json', '.node-version') }}
 
       - name: Install Javascript Dependencies
